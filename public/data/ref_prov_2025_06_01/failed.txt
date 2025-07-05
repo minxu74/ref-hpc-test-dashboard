@@ -1,0 +1,3 @@
+  40   cmip6_piControl_gn_r1i1p1f1_ACCESS-ESM1-5_rlut__pmp-climatology_CERES-EBAF-4-2_rlut                 pmp          annual-cycle                              True    False        2025-05-28 14:08:38   2025-05-28 14:08:38
+  42   cmip6_piControl_gn_r1i1p1f1_ACCESS-ESM1-5_rsdt__pmp-climatology_CERES-EBAF-4-2_rsdt                 pmp          annual-cycle                              True    False        2025-05-28 14:08:38   2025-05-28 14:08:38  
+  44   cmip6_piControl_gn_r1i1p1f1_ACCESS-ESM1-5_rsut__pmp-climatology_CERES-EBAF-4-2_rsut                 pmp          annual-cycle                              True    False        2025-05-28 14:08:38   2025-05-28 14:08:38  

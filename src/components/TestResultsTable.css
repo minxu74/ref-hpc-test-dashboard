@@ -1,0 +1,94 @@
+/* Existing styles... */
+
+.clickable-cell {
+  cursor: pointer;
+}
+
+.clickable-cell:hover {
+  text-decoration: underline;
+}
+
+.test-details-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.back-button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-button:hover {
+  background: #2980b9;
+}
+
+.details-table {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* TestResultsTable.css */
+
+.test-results-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.test-results-table {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+/* Tabulator-specific styles */
+.tabulator {
+  font-family: inherit;
+  border: none;
+}
+
+.tabulator .tabulator-header {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tabulator-row {
+  transition: background-color 0.2s;
+}
+
+.tabulator-row:hover {
+  background-color: #f8f9fa !important;
+}
+
+/* For the clickable cells */
+.clickable-cell {
+  cursor: pointer;
+}
+
+.clickable-cell:hover {
+  text-decoration: underline;
+}
+
+.last-updated {
+  text-align: right;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.loading {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+}

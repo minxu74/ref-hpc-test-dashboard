@@ -1,0 +1,7 @@
+                                                                                                                                 
+  provider     version   conda environment                                                                                       
+ ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+  esmvaltool   0.6.0     /pscratch/sd/m/minxu/wk_ref3/config/software/conda/esmvaltool-9776cff81b525ef5fc839c1b70ccfa40943cee1d  
+  ilamb        0.6.0                                                                                                             
+  pmp          0.6.0     /pscratch/sd/m/minxu/wk_ref3/config/software/conda/pmp-09fc79daa7e05ca0dfac8feba9246e4bb5045381         
+                                                                                                                                 

@@ -1,0 +1,144 @@
+/global/homes/m/minxu/scratch/wk_ref3/cache
+├── datasets
+│   ├── obs4ref
+│   │   └── obs4REF
+│   └── pmp-climatology
+│       └── PMP_obs4MIPsClims
+├── ESMValTool
+│   ├── OBS
+│   │   └── Tier2
+│   └── obs4MIPs
+│       └── GPCP-V2.3
+├── ilamb
+│   ├── burntFractionAll
+│   │   └── GFED
+│   ├── cSoil
+│   │   └── HWSD2
+│   ├── gpp
+│   │   ├── FLUXNET2015
+│   │   └── WECANN
+│   ├── lai
+│   │   └── AVH15C1
+│   ├── mrro
+│   │   └── LORA
+│   ├── mrsol
+│   │   └── WangMao
+│   ├── nbp
+│   │   └── HOFFMAN
+│   ├── NOAA
+│   │   └── ohc_yr_OHC_BE_gm_200506-202406.nc
+│   ├── pr
+│   │   └── GPCPv2.3
+│   ├── RAPID
+│   │   └── amoc_mon_RAPID_BE_NA_200404-202302.nc
+│   ├── regions
+│   │   ├── GlobalLand.nc
+│   │   └── Koppen_coarse.nc
+│   ├── snc
+│   │   └── Snow-cci
+│   ├── tas
+│   │   └── CRU4.02
+│   ├── test
+│   │   ├── Grid
+│   │   └── Site
+│   └── WOA
+│       ├── so_mon_WOA_A5B4_gn_200501-201412.nc
+│       └── thetao_mon_WOA_A5B4_gn_200501-201412.nc
+├── obs4REF
+│   ├── ARCCSS
+│   │   └── LORA-1-1
+│   ├── CNES
+│   │   └── AVISO-1-0
+│   ├── ColumbiaU
+│   │   └── WECANN-1-0
+│   ├── ECMWF
+│   │   ├── ERA-20C
+│   │   ├── ERA-5
+│   │   └── ERA-INT
+│   ├── ESSO
+│   │   └── TropFlux-1-0
+│   ├── MOHC
+│   │   └── HadISST-1-1
+│   ├── NASA-GSFC
+│   │   └── TRMM-3B43v-7
+│   ├── NASA-LaRC
+│   │   └── CERES-EBAF-4-2
+│   ├── NOAA-ESRL-PSD
+│   │   └── 20CR
+│   ├── NOAA-NCEI
+│   │   ├── CMAP-V1902
+│   │   ├── GPCP-2-3
+│   │   └── WOA2023
+│   ├── NOC
+│   │   └── RAPID
+│   └── UCI-ORNL
+│       └── Hoffman
+├── PMP_obs4MIPsClims
+│   ├── pr
+│   │   └── gr
+│   ├── psl
+│   │   └── gr
+│   ├── rlds
+│   │   └── gr
+│   ├── rldscs
+│   │   └── gr
+│   ├── rltcre
+│   │   └── gr
+│   ├── rlus
+│   │   └── gr
+│   ├── rlut
+│   │   └── gr
+│   ├── rlutcs
+│   │   └── gr
+│   ├── rsds
+│   │   └── gr
+│   ├── rsdscs
+│   │   └── gr
+│   ├── rsdt
+│   │   └── gr
+│   ├── rstcre
+│   │   └── gr
+│   ├── rsus
+│   │   └── gr
+│   ├── rsuscs
+│   │   └── gr
+│   ├── rsut
+│   │   └── gr
+│   ├── rsutcs
+│   │   └── gr
+│   ├── rt
+│   │   └── gr
+│   ├── ta
+│   │   └── gr
+│   ├── tas
+│   │   └── gr
+│   ├── ts
+│   │   └── gr
+│   ├── ua
+│   │   └── gr
+│   ├── uas
+│   │   └── gr
+│   ├── va
+│   │   └── gr
+│   ├── vas
+│   │   └── gr
+│   └── zg
+│       └── gr
+├── v0.6.0
+│   ├── CMIP6
+│   │   ├── C4MIP
+│   │   ├── CMIP
+│   │   ├── DAMIP
+│   │   └── ScenarioMIP
+│   └── obs4REF
+│       └── obs4REF
+└── v0.6.3
+    ├── CMIP6
+    │   ├── C4MIP
+    │   ├── CMIP
+    │   ├── DAMIP
+    │   └── ScenarioMIP
+    └── obs4REF
+        └── obs4REF
+
+135 directories, 6 files

@@ -1,0 +1,10 @@
+[
+  {
+    "testName": "Login Test",
+    "passed": 5,
+    "failed": 1,
+    "logFile": "login_test_20230530.log",
+    "passedDetails": "results/login_test_20230530_passed.txt",
+    "failedDetails": "results/login_test_20230530_failed.txt"
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "perlmutter": [
+    {
+      "timestamp": "2025-06-11",
+      "executor": "HPCExecutor",
+      "error": [
+        "error_40.log",
+        "error_42.log",
+        "error_44.log"
+      ],
+      "dirs": [
+        "cache_dir.txt",
+        "config_dir.txt"
+      ],
+      "venv": [
+        "esmvaltool.venv",
+        "pmp.venv",
+        "ref.venv"
+      ],
+      "envs": [
+        "env.txt",
+        "providers.txt",
+        "ref.toml"
+      ],
+      "logs": [
+        "climate-ref_2025-05-31_20-41_MainProcess.log",
+        "runinfo_030"
+      ],
+      "data": [
+        "cmip6_list.txt",
+        "cmip7_list.txt",
+        "obs4mips_list.txt",
+        "pmp-climatology_list.txt"
+      ],
+      "passed": {
+        "count": 55,
+        "filepath": "passed.txt"
+      },
+      "failed": {
+        "count": 3,
+        "filepath": "failed.txt"
+      }
+    },
+    {
+      "timestamp": "2025-05-31",
+      "executor": "HPCExecutor",
+      "error": [
+        "error_40.log",
+        "error_42.log",
+        "error_44.log"
+      ],
+      "dirs": [
+        "cache_dir.txt",
+        "config_dir.txt"
+      ],
+      "venv": [
+        "esmvaltool.venv",
+        "pmp.venv",
+        "ref.venv"
+      ],
+      "envs": [
+        "env.txt",
+        "providers.txt",
+        "ref.toml"
+      ],
+      "logs": [
+        "climate-ref_2025-05-31_20-41_MainProcess.log",
+        "runinfo_030"
+      ],
+      "data": [
+        "cmip6_list.txt",
+        "cmip7_list.txt",
+        "obs4mips_list.txt",
+        "pmp-climatology_list.txt"
+      ],
+      "passed": {
+        "count": 55,
+        "filepath": "passed.txt"
+      },
+      "failed": {
+        "count": 3,
+        "filepath": "failed.txt"
+      }
+    }
+  ]
+}

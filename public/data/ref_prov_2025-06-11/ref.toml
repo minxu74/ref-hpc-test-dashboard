@@ -1,0 +1,44 @@
+log_level = "DEBUG"
+log_format = "<green>{time:YYYY-MM-DD HH:mm:ss.SSS Z}</green> | <level>{level: <8}</level> | <cyan>{name}</cyan> - <level>{message}</level>"
+
+[paths]
+log = "/pscratch/sd/m/minxu/wk_ref3/config/log"
+scratch = "/pscratch/sd/m/minxu/wk_ref3/config/scratch"
+software = "/pscratch/sd/m/minxu/wk_ref3/config/software"
+results = "/pscratch/sd/m/minxu/wk_ref3/config/results"
+dimensions_cv = "/global/u2/m/minxu/MyGit/climate-ref-fix/packages/climate-ref-core/src/climate_ref_core/pycmec/cv_cmip7_aft.yaml"
+
+[db]
+database_url = "sqlite:////global/homes/m/minxu/scratch/wk_ref3/config/db/climate_ref.db"
+run_migrations = true
+max_backups = 5
+
+[executor]
+executor = "climate_ref.executor.HPCExecutor"
+
+[executor.config]
+scheduler = "slurm"
+account = "m2467"
+req_nodes = 1
+walltime = "00:30:00"
+username = "minxu"
+qos = "debug"
+scheduler_options = "#SBATCH -C cpu"
+cores_per_worker = 1
+max_workers_per_node = 64
+
+[[diagnostic_providers]]
+provider = "climate_ref_esmvaltool.provider"
+
+[diagnostic_providers.config]
+
+[[diagnostic_providers]]
+provider = "climate_ref_ilamb.provider"
+
+[diagnostic_providers.config]
+
+[[diagnostic_providers]]
+provider = "climate_ref_pmp.provider"
+
+[diagnostic_providers.config]
+
