@@ -85,4 +85,4 @@ jobs:
           # Commit and force push
           git add public/data/ref_prov_all.json
           git commit -m "Auto-update combined json"
-          git push origin vercel-deploy --force
+          git push origin deploy --force
