@@ -1,0 +1,100 @@
+/pscratch/sd/m/minxu/mytest_ref/config
+├── db
+│   ├── backups
+│   │   ├── climate_ref_20250704_113902.db
+│   │   ├── climate_ref_20250704_113908.db
+│   │   ├── climate_ref_20250704_113913.db
+│   │   ├── climate_ref_20250704_113917.db
+│   │   └── climate_ref_20250704_113924.db
+│   └── climate_ref.db
+├── log
+│   ├── climate-ref_2025-07-04_10-36_MainProcess.log
+│   ├── climate-ref_2025-07-04_10-40_MainProcess.log
+│   ├── climate-ref_2025-07-04_10-43_MainProcess.log
+│   ├── climate-ref_2025-07-04_10-44_MainProcess.log
+│   ├── climate-ref_2025-07-04_11-31_MainProcess.log
+│   ├── climate-ref_2025-07-04_11-32_MainProcess.log
+│   ├── climate-ref_2025-07-04_11-33_MainProcess.log
+│   ├── climate-ref_2025-07-04_11-34_MainProcess.log
+│   ├── climate-ref_2025-07-04_11-38_MainProcess.log
+│   └── climate-ref_2025-07-04_11-39_MainProcess.log
+├── ref.toml
+├── results
+│   ├── esmvaltool
+│   │   ├── climate-at-global-warming-levels
+│   │   ├── cloud-radiative-effects
+│   │   ├── enso-basic-climatology
+│   │   ├── enso-characteristics
+│   │   ├── equilibrium-climate-sensitivity
+│   │   ├── global-mean-timeseries
+│   │   ├── sea-ice-area-basic
+│   │   ├── transient-climate-response
+│   │   ├── transient-climate-response-emissions
+│   │   └── zero-emission-commitment
+│   ├── ilamb
+│   │   ├── amoc-rapid
+│   │   ├── burntfractionall-gfed
+│   │   ├── csoil-hwsd2
+│   │   ├── gpp-fluxnet2015
+│   │   ├── gpp-wecann
+│   │   ├── lai-avh15c1
+│   │   ├── mrro-lora
+│   │   ├── mrsos-wangmao
+│   │   ├── nbp-hoffman
+│   │   ├── snc-esacci
+│   │   ├── so-woa2023-surface
+│   │   └── thetao-woa2023-surface
+│   └── pmp
+│       ├── annual-cycle
+│       ├── enso_proc
+│       ├── enso_tel
+│       ├── extratropical-modes-of-variability-nam
+│       ├── extratropical-modes-of-variability-nao
+│       ├── extratropical-modes-of-variability-npgo
+│       ├── extratropical-modes-of-variability-npo
+│       ├── extratropical-modes-of-variability-pdo
+│       ├── extratropical-modes-of-variability-pna
+│       └── extratropical-modes-of-variability-sam
+├── scratch
+│   ├── esmvaltool
+│   │   ├── climate-at-global-warming-levels
+│   │   ├── cloud-radiative-effects
+│   │   ├── enso-basic-climatology
+│   │   ├── enso-characteristics
+│   │   ├── equilibrium-climate-sensitivity
+│   │   ├── global-mean-timeseries
+│   │   ├── sea-ice-area-basic
+│   │   ├── transient-climate-response
+│   │   ├── transient-climate-response-emissions
+│   │   └── zero-emission-commitment
+│   ├── ilamb
+│   │   ├── amoc-rapid
+│   │   ├── burntfractionall-gfed
+│   │   ├── csoil-hwsd2
+│   │   ├── gpp-fluxnet2015
+│   │   ├── gpp-wecann
+│   │   ├── lai-avh15c1
+│   │   ├── mrro-lora
+│   │   ├── mrsos-wangmao
+│   │   ├── nbp-hoffman
+│   │   ├── snc-esacci
+│   │   ├── so-woa2023-surface
+│   │   └── thetao-woa2023-surface
+│   └── pmp
+│       ├── annual-cycle
+│       ├── enso_proc
+│       ├── enso_tel
+│       ├── extratropical-modes-of-variability-nam
+│       ├── extratropical-modes-of-variability-nao
+│       ├── extratropical-modes-of-variability-npgo
+│       ├── extratropical-modes-of-variability-npo
+│       ├── extratropical-modes-of-variability-pdo
+│       ├── extratropical-modes-of-variability-pna
+│       └── extratropical-modes-of-variability-sam
+└── software
+    └── conda
+        ├── esmvaltool-9776cff81b525ef5fc839c1b70ccfa40943cee1d
+        ├── micromamba
+        └── pmp-09fc79daa7e05ca0dfac8feba9246e4bb5045381
+
+79 directories, 18 files

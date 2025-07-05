@@ -1,0 +1,35 @@
+/var/spool/slurmd/job40223695/slurm_script: line 15: .venv/bin/activate: No such file or directory
+0: 2025-07-04 11:20:38.270 | INFO     | climate_ref_core.executor:execute_locally:37 - Executing 'ilamb/amoc-rapid/cmip6_historical'
+0: 2025-07-04 11:20:38.270 | WARNING  | climate_ref_core.executor:execute_locally:41 - Output directory /pscratch/sd/m/minxu/mytest_ref/config/scratch/ilamb/amoc-rapid/28e124d58824ea31cee4a97e7ea3208447280d49 already exists. Removing the existing directory.
+0: 2025-07-04 11:20:38.278 | INFO     | climate_ref_core.logging:redirect_logs:195 - Running definition ExecutionDefinition(
+0:     diagnostic=ILAMBStandard(name='amoc-RAPID'),
+0:     key='cmip6_historical',
+0:     datasets=<climate_ref_core.datasets.ExecutionDatasetCollection object at 0x7f3f8a2a8450>,
+0:     output_directory=PosixPath('/pscratch/sd/m/minxu/mytest_ref/config/scratch/ilamb/amoc-rapid/28e124d58824ea31cee4a97e7ea3208447280d49'),
+0:     _root_directory=PosixPath('/pscratch/sd/m/minxu/mytest_ref/config/scratch')
+0: )
+0: 2025-07-04 11:20:41.804 | DEBUG    | matplotlib.pyplot:switch_backend:497 - Loaded backend Agg version v2.2.
+0: /pscratch/sd/m/minxu/mytest_ref/climate-ref/packages/climate-ref-ilamb/src/climate_ref_ilamb/standard.py:108: SettingWithCopyWarning: 
+0: A value is trying to be set on a copy of a slice from a DataFrame.
+0: Try using .loc[row_indexer,col_indexer] = value instead
+0: 
+0: See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+0:   model_df.loc[:, "source_id"] = extracted_source[0]
+0: /pscratch/sd/m/minxu/mytest_ref/climate-ref/packages/climate-ref-ilamb/src/climate_ref_ilamb/standard.py:109: SettingWithCopyWarning: 
+0: A value is trying to be set on a copy of a slice from a DataFrame.
+0: Try using .loc[row_indexer,col_indexer] = value instead
+0: 
+0: See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+0:   model_df.loc[:, "member_id"] = extracted_source[1]
+0: /pscratch/sd/m/minxu/mytest_ref/climate-ref/packages/climate-ref-ilamb/src/climate_ref_ilamb/standard.py:110: SettingWithCopyWarning: 
+0: A value is trying to be set on a copy of a slice from a DataFrame.
+0: Try using .loc[row_indexer,col_indexer] = value instead
+0: 
+0: See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+0:   model_df.loc[:, "grid_label"] = extracted_source[2]
+0: 2025-07-04 11:20:44.221 | INFO     | climate_ref_core.logging:redirect_logs:202 - Diagnostic execution complete. Results available in ilamb/amoc-rapid/28e124d58824ea31cee4a97e7ea3208447280d49
+0: 2025-07-04 11:20:44.222 | INFO     | __mp_main__:worker:771 - Completed executor task 77
+0: 2025-07-04 11:20:44.223 | INFO     | __mp_main__:worker:782 - All processing finished for executor task 77
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+0: slurmstepd: error: *** STEP 40223695.0 ON nid004338 CANCELLED AT 2025-07-04T18:20:46 ***
+slurmstepd: error: *** JOB 40223695 ON nid004338 CANCELLED AT 2025-07-04T18:20:46 ***

@@ -1,0 +1,36 @@
+#!/bin/bash
+
+#SBATCH --job-name=parsl.ref_hpc_executor.block-1.1751653055.8330734
+#SBATCH --output=/pscratch/sd/m/minxu/mytest_ref/run/runinfo/002/submit_scripts/parsl.ref_hpc_executor.block-1.1751653055.8330734.stdout
+#SBATCH --error=/pscratch/sd/m/minxu/mytest_ref/run/runinfo/002/submit_scripts/parsl.ref_hpc_executor.block-1.1751653055.8330734.stderr
+#SBATCH --nodes=1
+#SBATCH --time=30
+#SBATCH --ntasks-per-node=1
+#SBATCH -C cpu
+#SBATCH --exclusive
+#SBATCH --account=m2467
+#SBATCH --qos=debug
+
+
+source .venv/bin/activate
+
+
+export JOBNAME="parsl.ref_hpc_executor.block-1.1751653055.8330734"
+
+set -e
+export CORES=$SLURM_CPUS_ON_NODE
+export NODES=$SLURM_JOB_NUM_NODES
+
+[[ "1" == "1" ]] && echo "Found cores : $CORES"
+[[ "1" == "1" ]] && echo "Found nodes : $NODES"
+WORKERCOUNT=1
+
+cat << SLURM_EOF > cmd_$SLURM_JOB_NAME.sh
+process_worker_pool.py  --max_workers_per_node=64 -a 128.55.167.48,128.55.126.32,128.55.64.42,10.249.0.36,10.249.0.8,127.0.0.1,10.252.1.121 -p 0 -c 1 -m None --poll 10 --task_port=54704 --result_port=54858 --cert_dir None --logdir=/pscratch/sd/m/minxu/mytest_ref/run/runinfo/002/ref_hpc_executor --block_id=1 --hb_period=30  --hb_threshold=120 --drain_period=None --cpu-affinity None  --mpi-launcher=mpiexec --available-accelerators 
+SLURM_EOF
+chmod a+x cmd_$SLURM_JOB_NAME.sh
+
+srun --ntasks 1 -l  bash cmd_$SLURM_JOB_NAME.sh
+
+[[ "1" == "1" ]] && echo "Done"
+

@@ -1,0 +1,44 @@
+{
+  "perlmutter": [
+    {
+      "timestamp": "2025-07-04",
+      "error": [
+        "error_01.log",
+        "error02_log"
+      ],
+      "dirs": [
+        "cache_dir.txt",
+        "config_dir.txt"
+      ],
+      "venv": [
+        "esmvaltool.venv",
+        "pmp.venv",
+        "ref.venv"
+      ],
+      "envs": [
+        "env.txt",
+        "providers.txt",
+        "ref.toml"
+      ],
+      "logs": [
+        "climate-ref_2025-07-04_09-21_MainProcess.log",
+        "climate-ref_2025-07-04_11-38_MainProcess.log",
+        "runinfo_002"
+      ],
+      "data": [
+        "cmip6_list.txt",
+        "cmip7_list.txt",
+        "obs4mips_list.txt",
+        "pmp-climatology_list.txt"
+      ],
+      "passed": {
+        "count": "73",
+        "filepath": "passed.txt"
+      },
+      "failed": {
+        "count": "3",
+        "filepath": "failed.txt"
+      }
+    }
+  ]
+}
