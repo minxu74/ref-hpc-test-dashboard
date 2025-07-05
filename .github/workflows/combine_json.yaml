@@ -47,7 +47,7 @@ jobs:
           echo '{}' > ref_prov_all.json
 
           # Read directory list from previous step
-          dirs=${{ steps.find-dirs.outputs.dirs }}
+          dirs="${{ steps.find-dirs.outputs.dirs }}"
           
           # Process each directory
           for dir in $(echo "${dirs}" | jq -r '.[]'); do
